@@ -1,0 +1,43 @@
+.n-temporary-page{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.n-room-list-container{
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+  /* padding: 0px 40px; */
+ 
+}
+
+
+.n-room-name-list{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  
+}
+
+.n-room-name{
+  font-size: 24px;
+  font-weight: 600;
+  /* color: white; */
+  cursor: pointer;
+  display: inline;
+}
+
+.n-room-left-panel{
+  min-width: 500px;
+  border-right: 1px solid black;
+  /* background-color: black; */
+  /* margin-left: 40px;*/
+  padding: 0px 40px; 
+}
+
+.n-room-right-panel{
+  margin: 0px 40px;
+}
